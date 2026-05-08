@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsla(208, 33%, 21%, 1);
+    background: linear-gradient(180deg, hsla(208, 33%, 21%, 1) 0%, hsla(211, 36%, 46%, 1) 100%);
+    background: -moz-linear-gradient(180deg, hsla(208, 33%, 21%, 1) 0%, hsla(211, 36%, 46%, 1) 100%);
+    background: -webkit-linear-gradient(180deg, hsla(208, 33%, 21%, 1) 0%, hsla(211, 36%, 46%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#243748", endColorstr="#4b749f", GradientType=1 );
+}
+.card{
+    width: 600px;
+    height: 300px;
+    background-color:rgb(79, 2, 79);
+    display: flex;
+    flex-direction: row;
+}
+.img1{
+    width: 50%;
+    height: 100%;
+    overflow-x: hidden;
+    align;
+}
+.img1 img{
+    height: 100%;
+    overflow-x: hidden;
+}
+.details{
+    width: 50%;
+    height: 100%;
+}
